@@ -1,3 +1,4 @@
+// find the sum of numbers in an array
 #include <iostream>
 
 using namespace std;
@@ -12,6 +13,7 @@ int sum(int arr[], int n)
 
     return sum;
 }
+
 int main()
 {
     int arr[] = {10, 20, 30, 50, 40};
