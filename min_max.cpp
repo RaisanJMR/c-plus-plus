@@ -58,7 +58,7 @@ Pair getMinMax(int arr[], int size)
 int main()
 {
 
-    int arr[] = {10};
+    int arr[] = {10, 201, 58, 14, 0, 558};
 
     int n = sizeof(arr) / sizeof(arr[0]);
 
@@ -70,3 +70,10 @@ int main()
          << minmax.max << endl;
     return 0;
 }
+
+// Time Complexity: O(n)
+
+// Auxiliary Space: O(1) as no extra space was needed.
+
+// In this method, the total number of comparisons is 1 + 2(n-2) in the worst case and 1 + n – 2 in the best case. 
+// In the above implementation, the worst case occurs when elements are sorted in descending order and the best case occurs when elements are sorted in ascending order.
