@@ -9,6 +9,29 @@ struct Node
 struct Node *head;
 void Insert(int x);
 void Print();
+void Insert(int x)
+{
+    Node *temp = new Node();
+    temp->data = x;
+    temp->next = NULL;
+    if (head != NULL)
+    {
+        temp->next = head;
+    }
+
+    head = temp;
+}
+void Print()
+{
+    Node *temp = head;
+    cout << "List is: " << endl;
+    while (temp != NULL)
+    {
+        cout << temp->data << endl;
+        temp = temp->next;
+    }
+    cout << "\n";
+}
 int main()
 {
     head = NULL;
@@ -19,6 +42,8 @@ int main()
     {
         cout << "enter the number" << endl;
         cin >> x;
+        Insert(x);
+        Print();
     }
 
     return 0;
