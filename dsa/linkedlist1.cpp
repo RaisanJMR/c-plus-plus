@@ -29,7 +29,17 @@ void Insert(int data, int position)
     temp1->next = temp2->next;
     temp2->next = temp1;
 }
-
+void Print()
+{
+    Node *temp = head;
+    cout << "List is: " << endl;
+    while (temp != NULL)
+    {
+        cout << temp->data << endl;
+        temp = temp->next;
+    }
+    cout << "\n";
+}
 int main()
 {
     head = NULL;
@@ -37,5 +47,6 @@ int main()
     Insert(3, 2); // List: 2,3
     Insert(4, 1); // List: 4,2,3
     Insert(5, 2); // List: 4,5,2,3
+    Print();
     return 0;
 }
