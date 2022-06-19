@@ -6,7 +6,7 @@ struct Node
     int data;
     Node *next;
 };
-
+// insert a node at nth position
 struct Node *head;
 
 void Insert(int data, int position)
