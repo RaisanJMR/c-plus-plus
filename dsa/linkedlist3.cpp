@@ -23,12 +23,12 @@ void Insert(int data)
 }
 void Print()
 {
-    Node *temp3 = head;
+    Node *temp = head;
     cout << "List is: " << endl;
-    while (temp3 != NULL)
+    while (temp != NULL)
     {
-        cout << temp3->data << endl;
-        temp3 = temp3->next;
+        cout << temp->data << endl;
+        temp = temp->next;
     }
     cout << "\n";
 }
