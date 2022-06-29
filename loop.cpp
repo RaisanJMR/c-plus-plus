@@ -3,13 +3,14 @@ using namespace std;
 
 int main()
 {
-    int n = 5;
-    int count = 0;
-    for (int i = 6; i < n; i++)
-    {
-        count++;
-        cout << i << endl;
-    }
-    // cout << "COUNT=" << count << endl;
+    int len = 3;
+    // for (int i = 5; i > 0; i--)
+    // {
+
+    //     cout << i << endl;
+    // }
+    int sum = len / 2;
+    cout << sum << endl;
+
     return 0;
 }
