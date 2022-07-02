@@ -68,7 +68,7 @@ void ReversePrint()
 
 int main()
 {
-    head = NULL;
+    head = NULL; 
 
     InsertAtHead(2);
     InsertAtHead(3);

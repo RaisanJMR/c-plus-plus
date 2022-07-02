@@ -48,7 +48,7 @@ int main()
     Push(10);
     Push(6);
     Push(4);
-    Pop();
+    // Pop();
     Print();
     return 0;
 }

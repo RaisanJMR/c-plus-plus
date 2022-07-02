@@ -1,6 +1,6 @@
 #include <bits/stdc++.h>
 using namespace std;
-
+// stack using linkedlist
 class StackNode
 {
 public:
@@ -18,7 +18,7 @@ StackNode *newNode(int data)
 
 int isEmpty(StackNode *root)
 {
-    // cout << "from is empty:" << !root << endl;
+    cout << "from is empty:" << !root << endl;
     return !root;
 }
 
