@@ -1,3 +1,4 @@
+// Static data member
 #include <iostream>
 using namespace std;
 
