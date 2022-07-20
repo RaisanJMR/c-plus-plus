@@ -27,7 +27,7 @@ void Merge(int *A, int *L, int leftCount, int *R, int rightCount)
 void MergeSort(int *A, int n)
 {
     int mid, i, *L, *R;
-    if (n < 2)
+    if (n <= 1)
     {
         return;
     }
